@@ -32,7 +32,7 @@ url: "https://eitd.github.io" # the base hostname & protocol for your site, e.g.
 
 # Build settings
 # theme: minima
-remote_theme: no-style-please
+remote_theme: riggraz/no-style-please
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
