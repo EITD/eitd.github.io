@@ -1,0 +1,22 @@
+entries:
+  - title: android
+    post_list:
+      category: android
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive.html
+  
+  - title: cs
+    entries:
+      - title: data structure
+        post_list:
+        category: data structure
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: archive.html
+      - title: algorithm
+        post_list:
+        category: algorithm
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: archive.html
