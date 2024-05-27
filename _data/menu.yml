@@ -2,21 +2,136 @@ entries:
   - title: android
     post_list:
       category: android
+      limit: 5
       show_more: true
       show_more_text: See more posts...
-      show_more_url: archive.html
+      show_more_url: android-archive.html
+
+  - title: backend
+    post_list:
+      category: backend
+      limit: 5
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: backend-archive.html
+    entries:
+      - title: spring
+        post_list:
+          category: spring
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: spring-archive.html
   
   - title: cs
     entries:
       - title: data structure
         post_list:
-        category: data structure
-        show_more: true
-        show_more_text: See more posts...
-        show_more_url: archive.html
+          category: data structure
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: data-structure-archive.html
       - title: algorithm
         post_list:
-        category: algorithm
-        show_more: true
-        show_more_text: See more posts...
-        show_more_url: archive.html
+          category: algorithm
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: algorithm-archive.html
+      - title: os
+        post_list:
+          category: os
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: os-archive.html
+      - title: network
+        post_list:
+          category: network
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: network-archive.html
+      - title: database
+        post_list:
+          category: database
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: database-archive.html
+      - title: design
+        post_list:
+          category: design
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: design-archive.html
+
+  - title: frontend
+    entries:
+      - title: html
+        post_list:
+          category: html
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: html-archive.html
+      - title: css
+        post_list:
+          category: css
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: css-archive.html
+      - title: javascript
+        post_list:
+          category: javascript
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: javascript-archive.html
+      - title: browser
+        post_list:
+          category: browser
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: browser-archive.html
+      - title: vue
+        post_list:
+          category: vue
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: vue-archive.html
+      - title: react
+        post_list:
+          category: react
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: react-archive.html
+
+  - title: language
+    post_list:
+      category: language
+      limit: 5
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: language-archive.html
+    entries:
+      - title: java
+        post_list:
+          category: java
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: java-archive.html
+      - title: kotlin
+        post_list:
+          category: kotlin
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: kotlin-archive.html
