@@ -1,6 +1,8 @@
-# ScrollBarStyle
-
-![Untitled](ScrollBarStyle%20dfb10777847640bab52c48cb7b545b1e/Untitled.png)
+---
+layout: post
+title: "ScrollBarStyle"
+category: android
+---
 
 - `inside` - The scrollbar appears inside the content area(the padding wraps around both the content and the scrollbar).
 - `outiside` - The scrollbar appears outside the content area.

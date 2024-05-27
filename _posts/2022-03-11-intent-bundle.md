@@ -1,4 +1,8 @@
-# Intent && Bundle
+---
+layout: post
+title: "Intent && Bundle"
+category: android
+---
 
 ## What is Intent?
 
@@ -8,7 +12,6 @@
 4. Display Web Page
 5. Display Contact List
 
-![Untitled](Intent%20&&%20Bundle%20f85ab0cbb96c47128de36510a77ee1a3/Untitled.png)
 
 ## Implicit && Explicit
 

@@ -1,4 +1,8 @@
-# Include VS ViewStub VS Merge
+---
+layout: post
+title: "Include VS ViewStub VS Merge"
+category: android
+---
 
 ## <include />
 

@@ -1,4 +1,8 @@
-# Content Provider
+---
+layout: post
+title: "Content Provider"
+category: android
+---
 
 <aside>
 💡 Store data of the application and it facilities **other applications** to securely access and modify data in this application.
@@ -32,7 +36,6 @@ $$
 
 ## Working of Content Provider
 
-![Untitled](Content%20Provider%20049a4269e9904bb1b751810ab71cdeb2/Untitled.png)
 
 ### Create Content Provider Class
 
@@ -77,6 +80,3 @@ Add certain URI and put && retrieve data same as in same application.
 ```kotlin
 Uri CONTENT_URI = Uri.parse("content://com.demo.user.provider/users");
 ```
-
-> Refer to [Content Provider in Android](https://www.geeksforgeeks.org/content-providers-in-android-with-example/) for more information.
->

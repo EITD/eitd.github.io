@@ -1,4 +1,8 @@
-# RecyclerView
+---
+layout: post
+title: "RecyclerView"
+category: android
+---
 
 ## As ListView Improvement
 

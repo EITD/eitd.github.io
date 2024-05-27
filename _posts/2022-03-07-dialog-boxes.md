@@ -1,4 +1,8 @@
-# Dialog Boxes
+---
+layout: post
+title: "Dialog Boxes"
+category: android
+---
 
 - `AlertDialog`:
     - The AlertDialog supports 0-3 **buttons**, along with a list of selectable items such as **checkboxes** and **radio buttons**.

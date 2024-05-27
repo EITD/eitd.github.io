@@ -1,4 +1,8 @@
-# AndroidManifest
+---
+layout: post
+title: "AndroidManifest"
+category: android
+---
 
 - The `AndroidManifest.xml` file contains information regarding the **application** that the Android **system must know** before the codes can be executed.
 - It is declared in the **root directory**.

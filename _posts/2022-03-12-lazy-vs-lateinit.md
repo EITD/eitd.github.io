@@ -1,4 +1,8 @@
-# lazy VS lateinit
+---
+layout: post
+title: "lazy VS lateinit"
+category: android
+---
 
 1. **lateinit `var` whereas lazy `val`**
     
