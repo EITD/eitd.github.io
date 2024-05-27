@@ -67,6 +67,14 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: design-archive.html
+        entries:
+          - title: design pattern
+            post_list:
+              category: design pattern
+              limit: 5
+              show_more: true
+              show_more_text: See more posts...
+              show_more_url: design-pattern-archive.html
 
   - title: frontend
     entries:

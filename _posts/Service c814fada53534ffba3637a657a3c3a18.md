@@ -1,0 +1,36 @@
+# Service
+
+<aside>
+💡 Service runs in the background to perform **long-running operations** without user interaction. A service can run continuously in the background even if the application is **closed** or even after the user **switches** to another application.
+
+</aside>
+
+## Types of Service
+
+![Untitled](Service%20c814fada53534ffba3637a657a3c3a18/Untitled.png)
+
+- **Foreground Service**
+    - Service that notify users its **ongoing** operations and users can interact with it.
+    - **e.g.** Download a file, user can pause and resume.
+- **Background Service**
+    - Service **don’t require** user intervention and users can’t access them.
+    - **e.g.** Store of data.
+- **Bound Service**
+    - Allow components of the application to **bound** themselves with it.
+    - Perform tasks **as long as** any application components is bound to it.
+    - **More than one** component is allowed to bind themselves.
+
+## Lifecycle of Service
+
+![Untitled](Service%20c814fada53534ffba3637a657a3c3a18/Untitled%201.png)
+
+## Compare to Thread
+
+| Service | Thread |
+| --- | --- |
+| Service is an application component that facilitates an application to run in the background in order to perform long-running operations without user interaction.  | A Thread is a concurrent(并发) unit of execution. |
+| It exposes few functionalities to other applications by calling Context.bindService(). | Google has brought in handler and looper into threads. |
+| When an application is killed, service is not killed. | When an application is killed, the thread is killed. |
+
+> Refer to [Services in Android](https://www.geeksforgeeks.org/services-in-android-with-example/) for more information.
+>
