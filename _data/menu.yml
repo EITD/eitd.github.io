@@ -75,6 +75,37 @@ entries:
               show_more: true
               show_more_text: See more posts...
               show_more_url: design-pattern-archive.html
+      - title: mmse
+        post_list:
+          category: mmse
+          limit: 5
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: mmse-archive.html
+      - title: distributed system
+        entries:
+          - title: distributed basic
+            post_list:
+              category: distributed basic
+              limit: 5
+              show_more: true
+              show_more_text: See more posts...
+              show_more_url: distributed-basic-archive.html
+            entries:
+              - title: erlang
+                post_list:
+                  category: erlang
+                  limit: 5
+                  show_more: true
+                  show_more_text: See more posts...
+                  show_more_url: erlang-archive.html
+          - title: distributed advanced
+            post_list:
+              category: distributed advanced
+              limit: 5
+              show_more: true
+              show_more_text: See more posts...
+              show_more_url: distributed-advanced-archive.html
 
   - title: frontend
     entries:
