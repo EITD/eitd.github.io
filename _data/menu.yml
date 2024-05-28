@@ -136,6 +136,21 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: java-archive.html
+        entries:
+          - title: basics
+            post_list:
+              category: java basics
+              limit: 5
+              show_more: true
+              show_more_text: See more posts...
+              show_more_url: java-basics-archive.html
+          - title: comparison
+            post_list:
+              category: java comparison
+              limit: 5
+              show_more: true
+              show_more_text: See more posts...
+              show_more_url: java-comparison-archive.html
       - title: kotlin
         post_list:
           category: kotlin

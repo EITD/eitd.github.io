@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: spring
-which_category: spring
+title: java comparison
+which_category: java comparison
 ---
