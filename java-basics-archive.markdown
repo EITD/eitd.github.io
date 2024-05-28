@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: vue
-which_category: vue
+title: java basics
+which_category: java basics
 ---

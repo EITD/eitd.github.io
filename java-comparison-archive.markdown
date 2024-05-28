@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: java basics
-which_category: java basics
+title: java comparison
+which_category: java comparison
 ---
