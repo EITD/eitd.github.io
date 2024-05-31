@@ -1,4 +1,8 @@
 entries:
+  - title: about me
+    post_list:
+      category: cv
+      
   - title: android
     post_list:
       category: android
