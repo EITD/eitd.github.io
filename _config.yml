@@ -1,19 +1,19 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "https://le4ker.github.io/personal-jekyll-theme"
+url: "https://eitd.github.io/"
 
 # Google tracking id
-google-tracking-id: "UA-XXXXXXXX-X"
+# google-tracking-id: "UA-XXXXXXXX-X"
 
 #############
 # HTML Head #
 #############
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "EITD"
+title: "{ EITD }"
+description: "Blog and website of EITD, blogging mainly for tech. Opinions expressed are mine."
+keywords: "personal"
 favicon: "/img/favicon.ico"
 ################
 # Header layout #
@@ -33,7 +33,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+me-img: "https://github.com/EITD.png?size=500"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
@@ -105,22 +105,22 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb:
-  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
-  engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+# author_blurb:
+#   "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
+#   engineering projects. In his spare time, John likes to eat cotton candy."
+# author_blurb_image: "/img/author.png"
 ##################
 # Social Buttons #
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/EITD"
   - icon: "linkedin-in"
     url: "https://www.linkedin.com"
   - icon: "x-twitter"
     url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+  # - icon: "rss"
+  #   url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 ############
 # 404 page #
 ############
