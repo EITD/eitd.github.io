@@ -4,8 +4,8 @@
 
 require 'yaml'
 
-POSTS_DIR = '_posts'
-CATEGORIES_DIR = 'categories'
+POSTS_DIR = '../_posts'
+CATEGORIES_DIR = '../categories'
 
 Dir.foreach(POSTS_DIR) do |post|
   next if ['.', '..', '.DS_Store'].include?(post)
