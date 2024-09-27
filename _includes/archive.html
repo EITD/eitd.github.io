@@ -1,0 +1,189 @@
+<!-- Archive Start -->
+
+<section
+  id="{{ page.section-type }}"
+  class="container content-section text-center"
+>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      {{ page.content | markdownify }}
+
+      <!-- <ul class="timeline">
+        {% for event in site.events %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% capture class %}
+            {% if loopindex == 0 %}
+              timeline-inverted
+            {% endif %}
+          {% endcapture %}
+
+          <li class="{{ class }}">
+            <div class="timeline-image">
+              <img
+                class="img-circle img-responsive"
+                src="{{site.url}}{{ event.image }}"
+                alt=""
+                width="156"
+                height="156"
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <strong>{{ event.date | upcase }}</strong>
+              </div>
+              <div class="timeline-body">
+                {{ event.description | markdownify }}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img
+              class="img-circle img-responsive"
+              src="{{site.url}}{{ site.timeline-img }}"
+              alt=""
+              width="156"
+              height="156"
+            />
+          </div>
+        </li>
+      </ul> -->
+      <ul style="list-style: none;">
+          <li>
+            Frontend: 
+            <ul style="list-style: none; padding: 0; display: inline;">
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/html.html">
+                    HTML
+                  </a>
+                </li>
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/css.html">
+                    CSS
+                  </a>
+                </li>
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/javascript.html">
+                    JavaScript
+                  </a>
+                </li>
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/browser.html">
+                    Browser
+                  </a>
+                </li>
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/vue.html">
+                    Vue
+                  </a>
+                </li>
+                <li style="display: inline; margin-right: 15px;">
+                  <a href="{{ site.url }}/categories/react.html">
+                    React
+                  </a>
+                </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            Backend:
+            <ul style="list-style: none; padding: 0; display: inline;">
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/spring.html">
+                  Spring
+                </a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            Mobile:
+            <ul style="list-style: none; padding: 0; display: inline;">
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/android.html">
+                  Android
+                </a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            Programming Languages:
+            <ul style="list-style: none; padding: 0; display: inline;">
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/java.html">
+                  Java
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/kotlin.html">
+                  Kotlin
+                </a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            CS Fundamentals:
+            <ul style="list-style: none; padding: 0; display: inline;">
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/data structure.html">
+                  Data Structure
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/algorithm.html">
+                  Algorithm
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/os.html">
+                  Operating System
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/network.html">
+                  Network
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/database.html">
+                  Database
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/design.html">
+                  Design Principles && Patterns
+                </a>
+              </li>
+          </ul>
+          </li>
+          <br>
+          <li>
+            Lectures:
+            <ul style="list-style: none; padding: 0; display: inline;">
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/mmse.html">
+                  Modern Methods in Software Engineering
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/distributed basic.html">
+                  Distributed Systems, Basic
+                </a>
+              </li>
+              <li style="display: inline; margin-right: 15px;">
+                <a href="{{ site.url }}/categories/distributed advanced.html">
+                  Distributed Systems, Advanced
+                </a>
+              </li>
+            </ul>
+          </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Archive End -->
