@@ -82,19 +82,19 @@ syntax-highlight: True
 ############
 # Timeline #
 ############
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+# events:
+#   - image: "/img/timeline/spidertocat.png"
+#     date: "September 2013 - Today"
+#     description: "Saving the neighborhood!"
+#   - image: "/img/timeline/baracktocat.jpg"
+#     date: "September 2007 - August 2013"
+#     description: "Started coding"
 # First image of the Timeline
-timeline-img: "/img/timeline/default.png"
+# timeline-img: "/img/timeline/default.png"
 ###########
 # Contact #
 ###########
-email: "your@email.here"
+email: "islahou2022@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 ################
@@ -116,9 +116,7 @@ social:
   - icon: "github"
     url: "https://github.com/EITD"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
+    url: "https://www.linkedin.com/in/yining-hou/"
   # - icon: "rss"
   #   url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 ############
@@ -133,7 +131,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: "about"
   Blog: "latest-post"
-  Timeline: "timeline"
+  Archive: "archive"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
