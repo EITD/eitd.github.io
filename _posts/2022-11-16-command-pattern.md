@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 A **request** object ****includes various behaviors. **Command** objects composite these behaviors and are passed to an **Invoker object** which executes the command appropriately.
+💡 A request object includes various behaviors. Command objects composite these behaviors and are passed to an Invoker object which executes the command appropriately.
 
 </aside>
 
-
+<br>
 ### Create Request Class
 
 ```java

@@ -16,8 +16,8 @@ category: distributed basic
 If operations are not idempotent, the server must ensure that the same request is **not executed twice**.
 Keep a history of all requests and replies. The same reply can be sent without re-executing if a request is resent.
 
-- ***At-most-once***: the request has been executed once. *Implemented using a history or simply not resending requests.*
-- ***At-least-once***: the request has been executed at least once. *No need for a history; simply resend requests until a reply is received.*
+- **At-most-once**: the request has been executed once. *Implemented using a history or simply not resending requests.*
+- **At-least-once**: the request has been executed at least once. *No need for a history; simply resend requests until a reply is received.*
 
 # HTTP
 
@@ -43,18 +43,18 @@ Two processes are involved:
 💡 Each RPC is executed in a **separate process (thread)** on the server side. **An RPC is a synchronous operation.** The caller is suspended until the results of the remote procedure are returned.
 
 </aside>
-
+<br>
 ## **Executing RPC**
 
-On each RPC, the server starts a ***new process*** to execute the call.
+On each RPC, the server starts a **new process** to execute the call.
 
 - The new process terminates when the procedure returns and results are sent to the caller.
-- Calls from the same caller and calls from different callers are serviced by ***different concurrent processes*** on the server.
+- Calls from the same caller and calls from different callers are serviced by **different concurrent processes** on the server.
 
-Concurrent invocations might interfere when accessing shared objects – might need ***synchronization.***
+Concurrent invocations might interfere when accessing shared objects – might need **synchronization.**
 
 # **Java RMI**
 
-A *remote object* is passed as a reference (*by reference*), i.e., it remains at the original place it was created.
+A remote object is passed as a reference (by reference), i.e., it remains at the original place it was created.
 
-A *serializable object* is passed as a copy (*by value*), i.e., the object is duplicated.
+A serializable object is passed as a copy (by value), i.e., the object is duplicated.

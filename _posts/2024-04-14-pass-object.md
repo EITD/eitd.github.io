@@ -19,7 +19,7 @@ You use **custom HTML attributes** created by you and supported by React to be
 ```jsx
 const Welcome = (props) => <h1>Hello, {props.user}!</h1>
 ```
-
+<br>
 ## **Pass an Array as Props**
 
 To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.

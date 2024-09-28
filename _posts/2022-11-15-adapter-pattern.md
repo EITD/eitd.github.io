@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 Work as a bridge between two **incompatible interfaces**.
+💡 Work as a bridge between two incompatible interfaces.
 
 </aside>
 
-
+<br>
 ### Create Adapter Class
 
 ```java

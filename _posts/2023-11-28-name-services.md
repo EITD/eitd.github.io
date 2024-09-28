@@ -12,15 +12,15 @@ category: distributed basic
 # Terminology
 
 1. Pure names:						
- ***pure*** - no internal information
-***non-pure*** - contains information
+ **pure** - no internal information
+**non-pure** - contains information
 
 > IP address is non-pure name because it contains a location information (class, net id and host id)
 > 
 
 2. Flat or hierarchical
-***flat*** - all names directly comparable
-***hierarchical*** - names interpreted in an environment
+**flat** - all names directly comparable
+**hierarchical** - names interpreted in an environment
 
 # File systems
 
@@ -42,4 +42,4 @@ A DNS name consist of:
 
 ## DNS architecture
 
-Each server is an *authoritative server* for a zone; it holds the master record for the nodes below it. *Authoritative servers also work as slave servers for other zones to provide redundancy.*
+Each server is an authoritative server for a zone; it holds the master record for the nodes below it. Authoritative servers also work as slave servers for other zones to provide redundancy.

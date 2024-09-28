@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 One-to-many relationship between objects such as if one object is modified, its **dependent objects** are to be **notified automatically**.
+💡 One-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
 
 </aside>
 
-
+<br>
 ### Create Subject(will update) Class
 
 ```java

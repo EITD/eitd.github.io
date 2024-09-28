@@ -38,9 +38,9 @@ The Spring JDBC template is the primary API through which we can **access databa
 
 - Creation and closing of **connections**
 - Executing **statements** and **stored procedure** **calls**
-- **Iterating** over the *ResultSet* and returning results
+- **Iterating** over the ResultSet and returning results
 
-In order to use it, we'll need to define the simple configuration of *DataSource*:
+In order to use it, we'll need to define the simple configuration of DataSource:
 
 ```java
 @Configuration

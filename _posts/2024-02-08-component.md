@@ -19,7 +19,7 @@ States are the source of data and must be kept as simple as possible. Basically,
 
 # stateful Vs stateless
 
-In React, a *stateful* component is a component that holds some state. *Stateless* components, by contrast, have no state. 
+In React, a stateful component is a component that holds some state. Stateless components, by contrast, have no state. 
 
 The `Store` component is stateful and the `Week` component is stateless.
 
@@ -43,7 +43,7 @@ class Week extends React.Component {
 
 # Controlled Vs Uncontrolled
 
-Form fields are considered either *uncontrolled*, meaning they **maintain their own state**, or *controlled*, meaning that some **parent maintains their state** and passes it to them to display. Usually, the form fields will be controlled.
+Form fields are considered either uncontrolled, meaning they **maintain their own state**, or controlled, meaning that some **parent maintains their state** and passes it to them to display. Usually, the form fields will be controlled.
 
 ```jsx
 // Uncontrolled
@@ -54,13 +54,7 @@ const controlledInput = (
   <input value={this.state.value} onChange={this.handleInputChange} />
 );
 ```
-
-| Controlled | Uncontrolled |
-| --- | --- |
-| 1. They do not maintain their own state | 1. They maintain their own state |
-| 2. Data is controlled by the parent component | 2. Data is controlled by the DOM |
-| 3. They take in the current values through props and then notify the changes via callbacks | 3. Refs are used to get their current values |
-
+<br>
 # Functional Vs Class
 
 A functional component is a plain JavaScript function that takes in props and returns a React element. A class component is a JavaScript class that extends React.Component and has a render method that returns a React element.

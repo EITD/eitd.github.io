@@ -14,10 +14,10 @@ Even if we have a distributed system that provides atomic operations, we sometim
 
 # ACID
 
-- ***Atomic:*** either all or nothing
-- ***Consistent:*** the server should be left in a consistent state
-- ***Isolation:*** total order of transactions
-- ***Durability:*** persistent, once acknowledged
+- **Atomic:** either all or nothing
+- **Consistent:** the server should be left in a consistent state
+- **Isolation:** total order of transactions
+- **Durability:** persistent, once acknowledged
 
 # Lost update
 
@@ -27,27 +27,27 @@ The lost update problem occurs when two transactions read the old value of a var
 
 Serial equivalence is used as a criterion for the derivation of concurrency control protocols. These protocols attempt to serialize transactions in their access to objects:
 
-- ***most practical systems use locking***
-- ***optimistic concurrency control***
-- ***timestamp ordering.***
+- **most practical systems use locking**
+- **optimistic concurrency control**
+- **timestamp ordering.**
 
-# U**nrepeatable/Dirty read**
+# **Unrepeatable/Dirty read**
 
 
 The ‘dirty read’ problem is caused by the interaction between a read operation in one transaction and an earlier write operation in another transaction on the same object. In the case that p
 aborts, then q must abort as well.
 
 
-Allow for the fact that a transaction may abort by preventing it affecting other concurrent transactions if it does so. ****The isolation property of transactions requires that transactions do not see the uncommitted state of other transactions.
+Allow for the fact that a transaction may abort by preventing it affecting other concurrent transactions if it does so. ***The isolation property of transactions requires that transactions do not see the uncommitted state of other transactions.
 
 # **Cascading abort**
 
-To avoid cascading aborts, transactions are only allowed to read objects that were written by committed transactions. ***To ensure that this is the case, any read operation must be delayed until other transactions that applied a write operation to the same object have committed or aborted.*** 
+To avoid cascading aborts, transactions are only allowed to read objects that were written by committed transactions. **To ensure that this is the case, any read operation must be delayed until other transactions that applied a write operation to the same object have committed or aborted.** 
 
 # Two-phase locking
 
-- The first phase of each transaction is a ‘***growing phase***’, during which new locks are acquired.
-- In the second phase, the locks are released (a ‘***shrinking phase***’).
+- The first phase of each transaction is a ‘**growing phase**’, during which new locks are acquired.
+- In the second phase, the locks are released (a ‘**shrinking phase**’).
 
 ## Read and write locks
 
@@ -57,24 +57,16 @@ To avoid cascading aborts, transactions are only allowed to read objects that we
 # **Optimistic concurrency control**
 
 - Perform transaction in a copy of an object, hoping that no other transaction will interfere.
-- When performing a commit operation *the validity* is controlled.
-- If transaction is *valid*, the values written to permanent storage.
+- When performing a commit operation the validity is controlled.
+- If transaction is valid, the values written to permanent storage.
 - A transaction passes three phases:
-1. Working
-    
+    1. Working
     2. Validation: if passed, commit
     3. Update
     Validation and update are a critical section
     
 
 ## Validation
-
-| Tv | Ti | Rule |
-| --- | --- | --- |
-| write | read | 1. Ti must not read objects written by Tv. |
-| read | write | 2. Tv must not read objects written by Ti. |
-| write | write | 3. Ti must not write objects written by Tv and
-Tv must not write objects written by Ti. |
 
 ### Backward
 

@@ -18,23 +18,23 @@ multicast
 
 # **Ordering of messages**
 
-- ***FIFO order***: All messages are received in the order sent.
-- ***Causal order***: If a message ***m*2** is sent as a consequence of a message ***m*1** (i.e., a process has seen ***m*1** and then sends ***m*2**), then all members should see ***m*1** before ***m*2**.
-- ***Total order***: All members will see messages in precisely the same order.
+- **FIFO order**: All messages are received in the order sent.
+- **Causal order**: If a message **m2** is sent as a consequence of a message **m1** (i.e., a process has seen **m1** and then sends **m2**), then all members should see **m1** before **m2**.
+- **Total order**: All members will see messages in precisely the same order.
 
-> Causal ordering does not strictly imply FIFO; a process can send ***m*1** and then ***m*2** but has not yet seen its message ***m*1**.
+> Causal ordering does not strictly imply FIFO; a process can send **m1** and then **m2** but has not yet seen its message **m1**.
 > 
 
 # Subscriptions
 
-- ***Channel***: events are published to a channel that processes can subscribe to.
-- ***Topic (Subject)***: an event is published given one or more topics(#foo). If topics are structured in a hierarchy, processes can choose to subscribe to a topic or a sub-topic.
-- ***Content***: subscribers specify properties of the content, more general - harder to implement
-- ***Type***: used by object-oriented languages; subscribe on an event of a particular class
+- **Channel**: events are published to a channel that processes can subscribe to.
+- **Topic (Subject)**: an event is published given one or more topics(#foo). If topics are structured in a hierarchy, processes can choose to subscribe to a topic or a sub-topic.
+- **Content**: subscribers specify properties of the content, more general - harder to implement
+- **Type**: used by object-oriented languages; subscribe on an event of a particular class
 
 # Event routing
 
-The ***event routing*** depends on our subscription model and performance, fault tolerance, availability, and consistency requirements.
+The **event routing** depends on our subscription model and performance, fault tolerance, availability, and consistency requirements.
 
 ## Flooding
 

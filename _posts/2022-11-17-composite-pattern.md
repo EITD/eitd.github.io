@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 Treat **a group of objects** in a similar way.
+💡 Treat a group of objects in a similar way.
 
 </aside>
 
-
+<br>
 ### Create Composed Class
 
 ```java

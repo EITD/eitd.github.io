@@ -15,7 +15,7 @@ category: distributed advanced
 💡 Quorums used in Fail-Silent (asynchronous) and Fail-Noisy (partially synchronous) algorithms.
 
 </aside>
-
+<br>
 # Broadcast Abstractions
 
 - **Best-effort Broadcast**
@@ -73,7 +73,7 @@ What happens if we replace P with ◊P?
 - Uniform reliable broadcast intuition
     - If a failed node delivers, everyone must deliver…
     - At least correct nodes, we cannot revive the dead…
-    - *One fail deliver m, every correct deliver m*
+    - One fail deliver m, every correct deliver m
 - Properties
     - URB1 = RB1.
     - URB2 = RB2.
@@ -113,7 +113,7 @@ return |ack[m]|>n/2
 💡 CB: If process pi delivers m, then pi must deliver every message causally preceding (→) m before m
 
 </aside>
-
+<br>
 ## No-Wait causal broadcast
 
 > Each message m carries ordered list of causally preceding messages in **pastm.**

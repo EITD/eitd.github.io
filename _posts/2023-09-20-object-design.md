@@ -45,8 +45,8 @@ category: mmse
 
 - In class hierarchies, it should be possible to treat a specialized object as if it were a base class object.
 - If an object of type S can be substituted in all the places where an object of type T is expected, then S is a subtype of T.
-- An inheritance relationship that complies with the Liskov Substitution Principle is called *strict
-inheritance*.
+- An inheritance relationship that complies with the Liskov Substitution Principle is called strict
+inheritance.
 
 
 # **Adapter vs Bridge**

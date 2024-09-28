@@ -48,6 +48,6 @@ category: network
 3. OSI is only connection-oriented, but TCP/IP is both **connection-oriented** and **connectionless**.
 
 <aside>
-💡 `Connection-oriented` need to establish a connection before transmission of data.  `Connectionless` does not need to establish the connection in advance,  but send message with a **destination address** and the system will choose the way for transmission.
+💡 `Connection-oriented` need to establish a connection before transmission of data.  `Connectionless` does not need to establish the connection in advance,  but send message with a destination address and the system will choose the way for transmission.
 
 </aside>

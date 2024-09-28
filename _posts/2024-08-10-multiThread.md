@@ -6,7 +6,7 @@ title: "MultiThread"
 category: java
 ---
 
-## Inherit *java.lang.Thread*
+## Inherit java.lang.Thread
 
 ```java
 public class ThreadTest02 {
@@ -41,7 +41,7 @@ class MyThread extends Thread {
 As long as the new stack space is **opened**, the `start()` method will **end**. The thread started successfully and will automatically **call** the `run()` method. `run()` and `main()` are equal level.
 
 
-## Implement ***java.lang.Runnable Interface***
+## Implement java.lang.Runnable Interface
 
 ```java
 public class ThreadTest03 {
@@ -92,6 +92,6 @@ public class ThreadTest04 {
 ### Advantage
 
 <aside>
-💡 The class implements an interface and it can **inherit other class**, which is more flexible.
+💡 The class implements an interface and it can inherit other class, which is more flexible.
 
 </aside>

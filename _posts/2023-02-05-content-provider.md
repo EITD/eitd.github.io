@@ -7,10 +7,10 @@ category: android
 ---
 
 <aside>
-💡 Store data of the application and it facilities **other applications** to securely access and modify data in this application.
+💡 Store data of the application and it facilities other applications to securely access and modify data in this application.
 
 </aside>
-
+<br>
 ## Content URI
 
 To access data from a content provider, URI is used as a query string.

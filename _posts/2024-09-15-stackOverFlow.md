@@ -36,6 +36,7 @@ public class StackOverflowErrorClass {
 	}
 }
 ```
+<br>
 
 ## Fix
 
@@ -45,6 +46,7 @@ public class StackOverflowErrorClass {
     
 2. **Increasing the Stack Size**
 If you notice that it’s **implemented correctly** but still we see an error, then we can avoid that only by increasing the Stack Size in order to store the required number of recursive calls. This is achieved by **changing the settings of the compiler**.
+
 3. **Avoid** **Cyclic Relationships between classes**
     
     The relationship caused when two different **classes instantiate each other inside their constructors**.

@@ -34,14 +34,14 @@ public class StaticTest {
 
     public static void main(String[] args) {
         Log.info("Debug Point 1");
-        new StaticTest().populateList();
-				// the heap memory isn't yet garbage collected
-				// delete static: all the memory of the list is garbage collected because we don't have any reference to it.
+        new StaticTest().populateList(); 
+        // the heap memory isn't yet garbage collected
+	// delete static: all the memory of the list is garbage collected because we don't have any reference to it.
         Log.info("Debug Point 3");
     }
 }
 ```
-
+<br>
 ### Unclosed Resources
 
 Whenever we make a new **connection** or open a **stream**, the JVM allocates memory for these resources. e.g. database connections, input streams, and session objects.
@@ -53,7 +53,8 @@ Forgetting to close these resources can block the memory, thus keeping them out 
 - Always use `finally` block to close resources.
 - The code that closes the resources **shouldn't have any exceptions** itself.
 
-### **Improper *equals()* and *hashCode()* Implementations**
+<br>
+### Improper equals() and hashCode() Implementations
 
 Since we haven't defined the proper `equals()` method, the duplicate objects pile up and **increase the memory**.
 
@@ -76,7 +77,7 @@ public void givenMap_whenEqualsAndHashCodeNotOverridden_thenMemoryLeak() {
 }
 ```
 
-If we'd overridden the `equals()` and `hashCode()` methods properly, then only one `Person` **object would exist in this `Map`*.*
+If we'd overridden the `equals()` and `hashCode()` methods properly, then only one `Person` object would exist in this `Map`.
 
 ```java
 public class Person {
@@ -104,16 +105,17 @@ public class Person {
     }
 }
 ```
-
-### *finalize()* Methods
+<br>
+### finalize() Methods
 
 Whenever a class' `finalize()` method is overridden, then objects of that class **aren't instantly garbage collected**. Instead, the **GC queues** them for finalization.
 
 E.g. The overridden `finalize()` method takes a little bit of **time to execute**. When **a large number** of objects of this class get garbage collected, our application will possibly meet an `OutOfMemoryError`.
 
-### Use *ThreadLocals*
+<br>
+### Use ThreadLocals
 
-> `TheadLocal`:  *S*tore data that will be **accessible only** by **a specific thread**.
+> `TheadLocal`:  Store data that will be **accessible only** by **a specific thread**.
 > 
 
 ```java

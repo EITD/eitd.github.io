@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 One of the best ways to create an object **without exposing the creation logic** to the client.
+💡 One of the best ways to create an object without exposing the creation logic to the client.
 
 </aside>
 
-
+<br>
 ### Create a Factory
 
 ```kotlin

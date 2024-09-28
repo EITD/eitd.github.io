@@ -85,7 +85,7 @@ Often involves the words eventually, or must
 💡 Any trace property can be expressed as the conjunction of a safety property and a liveness property
 
 </aside>
-
+<br>
 # Faults Hierarchy
 
 ## Process Failures
@@ -107,19 +107,16 @@ Processes may fail in four ways:
 
 </aside>
 
-
+<br>
 # Channel Behavior
 
 ## Fair-Loss Links
 
 > Channels delivers any message sent with non-zero probability (no network partitions)
-> 
-- ***FL1. Fair-loss***: If m is sent infinitely often by pi to pj, and neither crash, then m is delivered infinitely often by pj
-- ***FL2. Finite duplication:*** If a m is sent a finite number of times by pi to pj, then it is delivered at most a finite number of times by pj
-    
-    I.e. a message cannot be duplicated infinitely many times
-    
-- ***FL3. No creation:*** No message is delivered unless it was sent
+
+- FL1. Fair-loss: If m is sent infinitely often by pi to pj, and neither crash, then m is delivered infinitely often by pj
+- FL2. Finite duplication: If a m is sent a finite number of times by pi to pj, then it is delivered at most a finite number of times by pj. I.e. a message cannot be duplicated infinitely many times
+- FL3. No creation: No message is delivered unless it was sent
 
 ## Stubborn Links
 
@@ -134,8 +131,8 @@ Processes may fail in four ways:
 
 ### Correctness
 
-- ***SL1. Stubborn delivery:*** if a correct process pi sends a message m to a correct process pj, then pj delivers m an infinite number of times
-- ***SL2. No creation:*** if a message m is delivered by some process pj, then m was previously sent by some process pi
+- SL1. Stubborn delivery: if a correct process pi sends a message m to a correct process pj, then pj delivers m an infinite number of times
+- SL2. No creation: if a message m is delivered by some process pj, then m was previously sent by some process pi
 
 ## Perfect Links
 
@@ -150,10 +147,10 @@ Processes may fail in four ways:
 
 ### Correctness
 
-- ***PL1. Reliable Delivery:***  If pi and pj are correct, then every
+- PL1. Reliable Delivery:  If pi and pj are correct, then every
 message sent by pi to pj is eventually delivered by pj (liveness)
-- ***PL2. No duplication:*** Every message is delivered at most once (safety)
-- ***PL3. No creation:*** No message is delivered unless it was sent (safety)
+- PL2. No duplication: Every message is delivered at most once (safety)
+- PL3. No creation: No message is delivered unless it was sent (safety)
 
 # Asynchrony
 

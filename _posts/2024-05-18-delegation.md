@@ -31,7 +31,7 @@ fun main()
     b.mymessage()
 }
 ```
-
+<br>
 ### Implicit delegation
 
 Require language-level support: in Kotlin, use keyword `by` . 

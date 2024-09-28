@@ -10,7 +10,7 @@ category: android
 💡 The system-wide events occurred on the device. We can register for the broadcast receiver and application events, and when that event happens, the receiver gets notified.
 
 </aside>
-
+<br>
 ### Create Broadcast Receiver
 
 In the activity you want to receive unread messages from the chat:

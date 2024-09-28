@@ -39,11 +39,11 @@ understood by the **developer** (“Problem Specification”)
 
 > Describe the interactions between the system and its environment independent from implementation.
 
-- What *inputs* the system should accept
-- What *outputs* the system should produce
+- What inputs the system should accept
+- What outputs the system should produce
 - What data the system should *store* that other systems might use
-- What *computations* the system should perform
-- The *timing* and *synchronization* of the above
+- What computations the system should perform
+- The timing and *synchronization* of the above
 
 ## **Nonfunctional requirements**
 

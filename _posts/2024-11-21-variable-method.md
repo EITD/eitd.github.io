@@ -51,10 +51,10 @@ category: java
 
 - **static method and static variable:**
     - **Belong** to the **class**, not to the object of the class, so they are **shared** by all **instances** of the class.
-    - **Gets memory** where the **class is loaded** during ****compile time.
+    - **Gets memory** where the **class is loaded** during ***compile time.
     - Directly **called** with the help of **class names**. E.g. static method: `Math.max()`, `Math.min()`. static variable: `array.length`.
 - **static class:**
-    - ****Only **inner class** and work like other static members of the class.
+    - ***Only **inner class** and work like other static members of the class.
 
 ### Static Method Overload Vs Override
 

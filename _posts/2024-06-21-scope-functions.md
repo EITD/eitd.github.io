@@ -10,7 +10,7 @@ category: kotlin
 💡 let, with, run, also, apply
 
 </aside>
-
+<br>
 ## Context object: this or it
 
 ### this
@@ -25,6 +25,7 @@ Operate on the object members: call its functions or assign properties.
 
 Easier for reading, object used as an argument in function calls and multiple variables in a block.
 
+<br>
 ## Return value
 
 ### context object

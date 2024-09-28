@@ -10,7 +10,7 @@ category: network
 💡 Different from HTTP, Websocket provides full-duplex communication.
 
 </aside>
-
+<br>
 ## Advantages
 
 - **Less** **control cost**

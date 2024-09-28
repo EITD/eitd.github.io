@@ -64,7 +64,7 @@ Each read/write operation issued by a correct process eventually completes.
 SC is not compositional
 
 Even though we can show SC(T|xr) for each register, SC(T) may not hold
-
+<br>
 ## Linearizability/Atomicity
 
 > Only allow executions whose results appear as if there is a single system image and “global time” is obeyed.
@@ -77,7 +77,7 @@ for all registers xr: LIN(T|xr) ⇔ LIN(T)
 
 </aside>
 
-
+<br>
 ## Liveness requirements
 
 - Wait-free

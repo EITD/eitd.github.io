@@ -42,10 +42,10 @@ sealed class OsSealed(val releaseYear: Int = 0, val company: String = "") {
     }
 }
 ```
-
+<br>
 # **Enum Class**
 
-> We use an enum *class* to relate each enum **constant** with its parent.
+> We use an enum class to relate each enum **constant** with its parent.
 > 
 
 ```kotlin
@@ -78,7 +78,7 @@ enum class OsEnum(val releaseYear: Int = 0, val company: String = "") {
     }
 }
 ```
-
+<br>
 # **Sealed Class vs Enum**
 
 - **In a sealed class, we can simply add multiple custom constructors depending on what we need.** Furthermore, we can define multiple functions with different names, parameters, and return types.

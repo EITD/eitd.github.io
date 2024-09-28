@@ -8,7 +8,7 @@ category: spring
 
 # Spring Bean
 
-> A *Spring bean* refers to an object that’s **managed by** the Spring Inversion of Control (**IoC**) container.
+> A Spring bean refers to an object that’s **managed by** the Spring Inversion of Control (**IoC**) container.
 > 
 
 ## Scope
@@ -27,7 +27,7 @@ In order to set Spring Bean's scope, we can use `@Scope` annotation or “scop
 
 # **application context**
 
-> The *application context* serves as a **container** into which Spring can inject beans.
+> The application context serves as a **container** into which Spring can inject beans.
 > 
 
 # **Spring Boot**

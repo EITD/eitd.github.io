@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 Create objects representing **various strategies** and a **context object** whose **behavior varies** as per its strategy object at **run time**.
+💡 Create objects representing various strategies and a context object whose behavior varies as per its strategy object at run time.
 
 </aside>
 
-
+<br>
 ### Create Strategy Class like this
 
 ```java

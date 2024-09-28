@@ -7,10 +7,10 @@ category: os
 ---
 
 <aside>
-💡 One producer and one consumer and they **share** the same memory buffer that is of **fix-sized.**
+💡 One producer and one consumer and they share the same memory buffer that is of fix-sized.
 
 </aside>
-
+<br>
 # Problem
 
 1. Producer can produce data only when the buffer is **not full**.

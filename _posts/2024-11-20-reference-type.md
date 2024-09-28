@@ -82,7 +82,7 @@ category: java
 
 ## Phantom Reference
 
-- ****The objects are **eligible for garbage collection**, but before removing them from the memory, JVM puts them in a queue called `ReferenceQueue`.
+- ***The objects are **eligible for garbage collection**, but before removing them from the memory, JVM puts them in a queue called `ReferenceQueue`.
     
     ```java
     @Slf4j

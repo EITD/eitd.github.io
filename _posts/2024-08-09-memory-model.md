@@ -15,10 +15,7 @@ category: java
 
 - Created during the virtual machine **startup**
 - Allocated for all **class instances** and **arrays**
-- A fixed or dynamic **size**
-
-> Programmer control the max and min size, be careful `OutOfMemory`.
-
+- A fixed or dynamic **size**: Programmer control the max and min size, be careful `OutOfMemory`.
 - The memory does **not** need to be **contiguous**
 - **Shared** by threads
 
@@ -48,7 +45,7 @@ category: java
         
         To load native method, we'll use the `System.loadLibrary`.
         
-        Place the call in a `static` **block so that it is available in our class:
+        Place the call in a `static` block so that it is available in our class:
         
         ```java
         public class DateTimeUtils {

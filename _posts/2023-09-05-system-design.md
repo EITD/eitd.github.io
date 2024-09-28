@@ -8,7 +8,7 @@ category: mmse
 
 # **Coupling and Cohesion**
 
-> Goal: Reduction of ***complexity while change occurs***
+> Goal: Reduction of **complexity while change occurs**
 > 
 
 **Coupling** measures dependencies **between subsystems**
@@ -25,12 +25,11 @@ category: mmse
 💡 Subsystems should have as maximum cohesion and minimum coupling as possible.
 
 </aside>
-
+<br>
 # **Partitions and Layers**
 
 > Partitioning and layering are techniques to achieve
 low coupling.
-****
 > 
 
 **Partitions** vertically divide a system into several independent (or weakly-coupled) subsystems that provide services on the same level of abstraction.
@@ -45,7 +44,7 @@ A **layer** is a subsystem that provides subsystem services to a higher layers (
 subsystems, called clients.
 - Client calls on the server, which performs some service
 and returns the result
-    - Client knows the *interface* of the server *(its service)*
+    - Client knows the interface of the server (its service)
     - Server does not need to know the interface of the client
 - Response in general immediate
 - Users interact only with the client

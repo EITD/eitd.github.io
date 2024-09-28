@@ -7,10 +7,10 @@ category: network
 ---
 
 <aside>
-💡 The **sharing** of a medium or bandwidth. It is the process in which **multiple signals** coming from **multiple sources** are combined and transmitted over a **single** communication/**physical line**.
+💡 The sharing of a medium or bandwidth. It is the process in which multiple signals coming from multiple sources are combined and transmitted over a single communication/physical line.
 
 </aside>
-
+<br>
 ## Frequency Division Multiplexing
 
 The bandwidth of a single physical medium is divided into a number of smaller, independent frequency channels. 

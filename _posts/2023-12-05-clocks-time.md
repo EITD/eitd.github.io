@@ -11,7 +11,7 @@ category: distributed basic
 - All events in one process are ordered.
 - The sending of a message occurs before the receiving of the message.
 - Events in a distributed system are partially ordered.
-- The order is called ***happened before***.
+- The order is called **happened before**.
 - Logical time gives us a tool to talk about ordering without having to synchronize clocks.
 
 ## Lamport clock
@@ -31,7 +31,7 @@ the time stamp of the message
 
 ## **Vector clock**
 
-A ***vector*** with one counter per process:
+A **vector** with one counter per process:
 
 - initially set to <0,....>
 - each process increments only its index

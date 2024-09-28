@@ -32,15 +32,10 @@ Thread: 3 count: 3
 Thread: 6 count: 6
 Thread: 5 count: 5
 ```
-
+<br>
 ## Coroutines in Kotlin
 
 Create and use threads for background tasks. A more flexible and easier way to manage concurrency.
-
-| Job | A cancelable unit of work, such as the one created in the launch() function. |
-| --- | --- |
-| CoroutineScope | Functions used to create new coroutines such as launch() and async(). |
-| Dispatcher | Determines the thread the coroutine will use. |
 
 ```kotlin
 import kotlinx.coroutines.*

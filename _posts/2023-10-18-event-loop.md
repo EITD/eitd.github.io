@@ -7,10 +7,10 @@ category: javascript
 ---
 
 <aside>
-💡 The **event loop** is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a **single thread**.
+💡 The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread.
 
 </aside>
-
+<br>
 # call stack
 
 > Responsible for **keeping track** of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack.

@@ -7,11 +7,11 @@ category: design
 ---
 
 <aside>
-💡 A single class makes sure only **single object** gets created and provides a way to **access** it **without instantiating** the object of the class.
+💡 A single class makes sure only single object gets created and provides a way to access it without instantiating the object of the class.
 
 </aside>
 
-
+<br>
 ### lazy (not thread safe)
 
 ```java
