@@ -31,8 +31,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Energy = milk × coffee²"
 me-img: "https://github.com/EITD.png?size=500"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -67,17 +66,17 @@ icon-192p: "/img/web-app/icon-192p.png"
 ########
 post-preview-words: 96
 paginate: 8
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-disqus-shortname: "personal-jekyll-theme"
+# email-share: True
+# fb-share: True
+# twitter-share: True
+# linkedin-share: True
+# reddit-share: True
+# google-plus-share: True
+# tumblr-share: True
+# pinterest-share: True
+# pocket-share: True
+# vkontakte-share: True
+# disqus-shortname: "personal-jekyll-theme"
 syntax-highlight: True
 ############
 # Timeline #
@@ -96,7 +95,7 @@ syntax-highlight: True
 ###########
 email: "islahou2022@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
-pgp: False
+# pgp: False
 ################
 # Author Blurb #
 ################
